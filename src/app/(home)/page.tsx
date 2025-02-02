@@ -1,6 +1,7 @@
 import { auth } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
 import { Button } from "~/components/ui/button";
+import Footer from "~/components/Footer";
 
 export default function HomePage() {
   return (
@@ -29,9 +30,7 @@ export default function HomePage() {
               Get Started
             </Button>
       </form>
-      <footer className="mt-16 text-sm text-neutral-500">
-        &copy; {new Date().getFullYear()} Mx Drive
-      </footer>
+      <Footer/>
     </>
   )
 }
