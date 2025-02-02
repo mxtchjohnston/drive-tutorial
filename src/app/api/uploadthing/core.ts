@@ -1,5 +1,4 @@
 import { auth } from "@clerk/nextjs/server"
-import { Query } from "node_modules/mysql2/typings/mysql/lib/protocol/sequences/Query"
 import {createUploadthing, type FileRouter} from "uploadthing/next"
 import {UploadThingError} from "uploadthing/server"
 import {z} from "zod"
